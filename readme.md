@@ -41,7 +41,7 @@ Component id's: https://docs.microsoft.com/en-us/visualstudio/install/workload-c
 
 
 ```bash
-winget install -h -e Microsoft.VisualStudio.Professional --override "--passive --wait --productId Microsoft.VisualStudio.Product.Professional --channelId VisualStudio.16.Release --channelUri https://aka.ms/vs/16/release/channel --includeRecommended --add Microsoft.VisualStudio.Workload.CoreEditor --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetWeb""
+winget install -h -e Microsoft.VisualStudio.Professional --override "--passive --wait --productId Microsoft.VisualStudio.Product.Professional --channelId VisualStudio.16.Release --channelUri https://aka.ms/vs/16/release/channel --includeRecommended --add Microsoft.VisualStudio.Workload.CoreEditor --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetWeb"
 ```
 
 # Misc
