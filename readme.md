@@ -31,7 +31,7 @@ Needs kernel update?
 See: https://github.com/microsoft/WSL/issues/5650#issuecomment-765825503
 * http://download.windowsupdate.com/c/msdownload/update/software/updt/2021/02/wsl_update_x64_a3ae94894fc23e4eb522dd65a08cb5ddfa898f73.cab
 * https://www.catalog.update.microsoft.com/Search.aspx?q=wsl
-
+* https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
 
 # Install Visual Studio with winget
 
