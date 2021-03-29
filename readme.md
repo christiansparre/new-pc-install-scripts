@@ -1,5 +1,10 @@
 # Just a few scripts to get a new PC install going
 
+```powershell
+wget https://raw.githubusercontent.com/christiansparre/new-pc-install-scripts/master/boxstarter.ps1 -outfile "boxstarter.ps1"
+wget https://raw.githubusercontent.com/christiansparre/new-pc-install-scripts/master/readme.md -outfile "readme.md"
+```
+
 ## Install Chocolatey
 
 ```powershell
