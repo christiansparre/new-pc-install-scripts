@@ -26,7 +26,8 @@ choco install sysinternals -y
 
 # winget packages
 winget install -h -e Microsoft.WindowsTerminal
-winget install -h -e Microsoft.VisualStudioCode-User-x64
+winget install -h -e Microsoft.VisualStudioCode
+winget install -h -e JetBrains.ReSharper
 winget install -h -e GitExtensionsTeam.GitExtensions
 winget install -h -e Git.Git
 winget install -h -e Microsoft.PowerShell
