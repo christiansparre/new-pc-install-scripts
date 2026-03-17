@@ -1,13 +1,11 @@
-winget install -h -e Microsoft.PowerShell
-winget install --force Microsoft.VisualStudioCode --override '/VERYSILENT /SP- /MERGETASKS="!runcode,!desktopicon,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"'
-winget install -h -e GitExtensionsTeam.GitExtensions
-winget install -h -e Git.Git
-winget install -h -e GitHub.GitHubDesktop
-winget install -h -e Microsoft.AzureCLI
-winget install -h -e 7zip.7zip
-winget install -h -e Microsoft.PowerToys
-winget install -h -e Microsoft.SQLServerManagementStudio
-winget install -h -e Microsoft.AzureStorageExplorer
-winget install -h -e KDE.KDiff3
-winget install -h -e Docker.DockerDesktop
-winget install -h -e LINQPad.LINQPad8
+winget install -h -e --id Google.Chrome --accept-package-agreements --accept-source-agreements
+winget install -h -e --id Microsoft.PowerShell --accept-package-agreements --accept-source-agreements
+winget install -h -e --id Microsoft.VisualStudioCode --force --accept-package-agreements --accept-source-agreements --override '/VERYSILENT /SP- /MERGETASKS="!runcode,!desktopicon,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"'
+winget install -h -e --id GitExtensionsTeam.GitExtensions --accept-package-agreements --accept-source-agreements
+winget install -h -e --id Git.Git --accept-package-agreements --accept-source-agreements
+winget install -h -e --id GitHub.GitHubDesktop --accept-package-agreements --accept-source-agreements
+winget install -h -e --id Microsoft.AzureCLI --accept-package-agreements --accept-source-agreements
+winget install -h -e --id 7zip.7zip --accept-package-agreements --accept-source-agreements
+winget install -h -e --id Microsoft.PowerToys --accept-package-agreements --accept-source-agreements
+winget install -h -e --id Microsoft.AzureStorageExplorer --accept-package-agreements --accept-source-agreements
+winget install -h -e --id LINQPad.LINQPad.9 --accept-package-agreements --accept-source-agreements
